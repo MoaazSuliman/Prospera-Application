@@ -297,8 +297,7 @@ frappe.ui.toolbar.setup_session_defaults = function () {
 };
 frappe.ui.toolbar.show_about = function () {
    // Your custom code here
-    console.log('Custom About function');
-    frappe.msgprint("A7a");
+  
     // Optionally, you can still call the original function
     frappe.ui.misc.about();
 };
