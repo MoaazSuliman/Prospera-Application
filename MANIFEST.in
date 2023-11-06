@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include prospera_app *.css
+recursive-include prospera_app *.csv
+recursive-include prospera_app *.html
+recursive-include prospera_app *.ico
+recursive-include prospera_app *.js
+recursive-include prospera_app *.json
+recursive-include prospera_app *.md
+recursive-include prospera_app *.png
+recursive-include prospera_app *.py
+recursive-include prospera_app *.svg
+recursive-include prospera_app *.txt
+recursive-exclude prospera_app *.pyc
